@@ -1,0 +1,64 @@
+\section{Motivation}
+We motivate the need for data enrichment through three real-world examples gathered from large Fortune 500
+companies that are clients of Accenture.
+
+\textbf{Creating comprehensive customer models}:
+		Creating comprehensive customer models has become a holy grail in the consumer business, especially in verticals like retail and healthcare. The information that is collected impacts key decisions
+		like inventory management, promotions and rewards, and for delivering a more personal experience. Often businesses engage customers to register for programs like reward cards or connect with the 
+		customers using social media. This limited initial engagement gives them the access to basic information about a customer, such as name, email, address, and social media handles. However, in  a vast 
+		majority of the cases, such information is incomplete and the gaps are not uniform. For example, for a customer John Doe, a business might have the name, street address, and a phone number, whereas
+		for Jane Doe, the available information will be name, email, and a Twitter handle. Leveraging the basic information and completing the gaps, also called as creating a 360 degree customer view has many 
+		applications, including:  
+		\begin{enumerate}
+			\item \textbf{Personalized and targeted promotions}: The more information a business has about its customer, the better it can personalize deals and promotions. Further, business could also 
+				use aggregated information (such as interests of people living in a neighborhood) to manage inventory and run local deals and promotions. 
+			\item \textbf{Better segmentation and analytics}: The provider may need more information about their customers, beyond what they have in the profile, for better segmentation and analytics. 
+				For example, a certain e-commerce site may know a person’s browsing and buying history on their site and have some limited information about the person such as their address and credit card 
+				information. However, understanding their professional activities and hobbies may help them get more features for customer segmentation that they can use for suggestions or promotions.
+				\item \textbf{Fraud detection}: The provider may need more information about their customers for detecting fraud. Providers typically create detailed customer profiles to predict their 
+				behaviors and detect anomalies. Having demographic and other attributes such as interests and hobbies helps building more accurate customer behavior profiles. Most e-commerce providers 
+				are typically under a lot of pressure to detect fraudulent activities on their site as early as possible, so that they can limit their exposure to lawsuits, compliance laws or even loss of 
+				reputation.
+		\end{enumerate}
+		Current approaches to addressing this challenge largely revolve around subscribing to data sources like Experian. This approach has the following shortcomings:
+		\begin{enumerate}
+			\item The enrichment task is restricted to the attributes provided by the one or two data sources that they buy from. If they need some other attributes about the customers, it is hard to get them.
+			\item The selected data sources may have high quality information about attributes, but poor quality about some others. Even if the e-commerce provider knows about other sources, which have those
+				attributes, it is hard to manually integrate more sources.
+			\item There is no good way to monitor if there is any degradation in the quality of data sources.
+		\end{enumerate}
+Using the enrichment framework in this context would allow the e-commerce provider to dynamically select the best set of sources for a particular attribute in  particular data enrichment task. 
+The proposed framework can switch sources across customer records, if the most preferred source does not have information about some attributes for a particular record. For low confidence values, the 
+proposed system uses reconciliation across sources to increase the confidence of the value. The enrichment framework can also continuously monitor and downgrade sources, if there is any loss of quality.
+
+
+\textbf{Capital Equipment Maintenance}: Companies within the energy and resources industry have significant investments
+in capital equipments (i.e. drills, oil pumps, etc.). Accurate data about these equipments (e.g. manufacturer, model, etc.) 
+is paramount to operational efficiency, proper maintenance, etc.
+
+The current process for capturing this data begins with manual entry. Followed by manual, periodic ``walk-downs''
+to confirm and validate this information. However, this process is error-prone, and often results in incomplete
+and inaccurate data about the equipments.
+
+This does not have to be the case. A wealth of structured data sources (e.g. from manufacturers) exist that
+provides much of the incomplete, missing information. Hence, a solution that can automatically leverage these
+sources to enrich existing, internal capital equipment data can significantly improve the quality of the data,
+which in turn can improve operational efficiency and enable proper maintenance.
+
+
+\textbf{Competitive Intelligence.} The explosive growth of external data (i.e. data outside the business such as Web
+data, data providers, etc.) can enable businesses to gather rich intelligence about their competitors. For example,
+companies in the energy and resources industry are very interested in competitive insights such as where a competitor
+is drilling (or planning to drill); disruptions to drilling due to accidents, weather, etc.; and more.
+
+To gather these insights, companies currently purchase relevant data from third party sources -- e.g. IHS and Dodson
+are just a few examples of third party data sources that aggregate and sell drilling data -- to manually enrich
+existing internal data to generate a comprehensive view of the competitive environment. However, this current
+process is manual one, which makes it difficult to scale beyond a small handful of data sources. Many useful,
+data sources that are open (public access) (e.g. sources that provide weather data based on GIS information) are omitted,
+resulting in gaps in the intelligence gathered.
+
+A solution that can automatically perform this enrichment across a broad range of data sources can provide more
+in-depth, comprehensive competitive insight.
+
+

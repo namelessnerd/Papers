@@ -1,0 +1,15 @@
+\section{Related Work}
+
+Mashups or Web application hybrids \cite{merrill2006mashups} have emerged as the popular approach for integrating data from different data sources on the Web. Plethora of tools such as \cite{maximilien2007domain,fagan2007mashing,opk}
+have been developed for creating mashups. However, in a traditional mashup, the data sources used and 
+the order in which they are invoked are static. In the context of data enrichment, such a static approach may not yield desired results, since the gaps in a dataset are often not homogeneous. The granular selection and 
+ordering of sources that we advocate in this paper is the main difference between our work and the standard mashup techniques. 
+An evaluation of approaches for data mediation in mashup tools is presented in \cite{di2009data}. While this paper compares different approaches, it does not in itself advocate a novel method. 
+\cite{maximilien2007domain} present a domain specific language for developing mashups. The paper proposes a manual mediation approach, similar to 
+the approach discussed in this work. However, the DSL driven platform does not support run-time source selection based on available attributes and does not support source adaptation.   
+
+\section{Conclusion}
+In this paper we present a framework for data enrichment using data sources on the Web. The salient features of our system include the ability to dynamically select the appropriate sequence of data sources to use, based on the 
+available data. 
+We also discuss approaches for automatically computing the utility of data sources and adapting to their usage. The framework is exposed (internally) as a ``platform as a service'', accessible via RESTful APIs. 
+We are currently in the process of piloting the system in the energy and resources domain. 

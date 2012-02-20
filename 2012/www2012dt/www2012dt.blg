@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: www2012dt.aux
+The style file: abbrv.bst
+Database file #1: www2012dt.bib
+A bad cross reference---entry "mapping1"
+refers to entry "DBLP:conf/ijcai/2003iiweb", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/ijcai/2003iiweb"
+Warning--can't use both volume and number fields in mapping2
+You've used 8 entries,
+            2118 wiz_defined-function locations,
+            549 strings with 4947 characters,
+and the built_in function-call counts, 2818 in all, are:
+= -- 279
+> -- 120
+< -- 5
++ -- 49
+- -- 40
+* -- 177
+:= -- 451
+add.period$ -- 25
+call.type$ -- 8
+change.case$ -- 44
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 114
+empty$ -- 226
+format.name$ -- 40
+if$ -- 611
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 6
+newline$ -- 43
+num.names$ -- 16
+pop$ -- 52
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 94
+stack$ -- 0
+substring$ -- 158
+swap$ -- 40
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 1
+while$ -- 30
+width$ -- 9
+write$ -- 89
+(There was 1 error message)

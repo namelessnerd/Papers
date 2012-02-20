@@ -1,0 +1,55 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Di~Lorenzo \bgroup et al.\egroup
+  }{2009}]{di2009data}
+Di~Lorenzo, G.; Hacid, H.; Paik, H.; and Benatallah, B.
+\newblock 2009.
+\newblock Data integration in mashups.
+\newblock {\em ACM Sigmod Record} 38(1):59--66.
+
+\bibitem[\protect\citeauthoryear{Doan, Domingos, and Halevy}{2001}]{mapping2}
+Doan, A.; Domingos, P.; and Halevy, A.
+\newblock 2001.
+\newblock Reconciling schemas of disparate data sources: A machine-learning
+  approach.
+\newblock In {\em ACM Sigmod Record}, volume~30,  509--520.
+\newblock ACM.
+
+\bibitem[\protect\citeauthoryear{Fagan}{2007}]{fagan2007mashing}
+Fagan, J.
+\newblock 2007.
+\newblock Mashing up multiple web feeds using yahoo! pipes.
+\newblock {\em Computers in Libraries} 27(10):8.
+
+\bibitem[\protect\citeauthoryear{Madhavan \bgroup et al.\egroup
+  }{2003}]{mapping1}
+Madhavan, J.; Bernstein, P.~A.; Chen, K.; Halevy, A.~Y.; and Shenoy, P.
+\newblock 2003.
+\newblock Corpus-based schema matching.
+\newblock In {\em IIWeb},  59--63.
+
+\bibitem[\protect\citeauthoryear{Mahemoff}{2006}]{comet}
+Mahemoff, M.
+\newblock 2006.
+\newblock Design patterns for ajax.
+\newblock \url{http://ajaxpatterns.org/HTTP_Streaming}.
+
+\bibitem[\protect\citeauthoryear{Maximilien \bgroup et al.\egroup
+  }{2007}]{maximilien2007domain}
+Maximilien, E.; Wilkinson, H.; Desai, N.; and Tai, S.
+\newblock 2007.
+\newblock A domain-specific language for web apis and services mashups.
+\newblock {\em Service-oriented computing--ICSOC 2007}  13--26.
+
+\bibitem[\protect\citeauthoryear{Merrill}{2006}]{merrill2006mashups}
+Merrill, D.
+\newblock 2006.
+\newblock Mashups: The new breed of web app.
+\newblock {\em IBM Web Architecture Technical Library}  1--13.
+
+\bibitem[\protect\citeauthoryear{Software"}{}]{opk}
+Software", K.
+\newblock Open kapow.
+\newblock \url{http://kapowsoftware.com/}.
+
+\end{thebibliography}

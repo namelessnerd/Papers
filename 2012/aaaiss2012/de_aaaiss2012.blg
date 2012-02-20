@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: de_aaaiss2012.aux
+The style file: aaai.bst
+Database file #1: de_aaaiss2012.bib
+A bad cross reference---entry "mapping1"
+refers to entry "DBLP:conf/ijcai/2003iiweb", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/ijcai/2003iiweb"
+Warning--can't use both volume and number fields in mapping2
+Warning--empty year in opk
+You've used 8 entries,
+            2568 wiz_defined-function locations,
+            626 strings with 5799 characters,
+and the built_in function-call counts, 3327 in all, are:
+= -- 357
+> -- 120
+< -- 5
++ -- 41
+- -- 40
+* -- 243
+:= -- 533
+add.period$ -- 40
+call.type$ -- 8
+change.case$ -- 52
+chr.to.int$ -- 8
+cite$ -- 10
+duplicate$ -- 136
+empty$ -- 239
+format.name$ -- 50
+if$ -- 702
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 6
+newline$ -- 51
+num.names$ -- 24
+pop$ -- 51
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 119
+stack$ -- 0
+substring$ -- 158
+swap$ -- 46
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 64
+warning$ -- 2
+while$ -- 30
+width$ -- 12
+write$ -- 113
+(There was 1 error message)

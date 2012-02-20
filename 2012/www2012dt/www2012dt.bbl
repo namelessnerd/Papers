@@ -1,0 +1,44 @@
+\begin{thebibliography}{1}
+
+\bibitem{di2009data}
+G.~Di~Lorenzo, H.~Hacid, H.~Paik, and B.~Benatallah.
+\newblock Data integration in mashups.
+\newblock {\em ACM Sigmod Record}, 38(1):59--66, 2009.
+
+\bibitem{mapping2}
+A.~Doan, P.~Domingos, and A.~Halevy.
+\newblock Reconciling schemas of disparate data sources: A machine-learning
+  approach.
+\newblock In {\em ACM Sigmod Record}, volume~30, pages 509--520. ACM, 2001.
+
+\bibitem{fagan2007mashing}
+J.~Fagan.
+\newblock Mashing up multiple web feeds using yahoo! pipes.
+\newblock {\em Computers in Libraries}, 27(10):8, 2007.
+
+\bibitem{mapping1}
+J.~Madhavan, P.~A. Bernstein, K.~Chen, A.~Y. Halevy, and P.~Shenoy.
+\newblock Corpus-based schema matching.
+\newblock In {\em IIWeb}, pages 59--63, 2003.
+
+\bibitem{comet}
+M.~Mahemoff.
+\newblock Design patterns for ajax.
+\newblock \url{http://ajaxpatterns.org/HTTP_Streaming}, 2006.
+
+\bibitem{maximilien2007domain}
+E.~Maximilien, H.~Wilkinson, N.~Desai, and S.~Tai.
+\newblock A domain-specific language for web apis and services mashups.
+\newblock {\em Service-oriented computing--ICSOC 2007}, pages 13--26, 2007.
+
+\bibitem{merrill2006mashups}
+D.~Merrill.
+\newblock Mashups: The new breed of web app.
+\newblock {\em IBM Web Architecture Technical Library}, pages 1--13, 2006.
+
+\bibitem{opk}
+K.~Software".
+\newblock Open kapow.
+\newblock \url{http://kapowsoftware.com/}.
+
+\end{thebibliography}

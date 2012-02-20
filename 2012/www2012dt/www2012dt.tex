@@ -1,0 +1,50 @@
+%File: formatting-instruction.tex
+
+\documentclass{sig-alternate}
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+\usepackage{amsopn}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{fancyvrb}
+\usepackage{color}
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\frenchspacing
+\pdfinfo{
+/Title (Data Enrichment using Data Sources on the Web)
+/Author (Karthik Gomadam, Peter Z. Yeh, Kunal Verma)}
+\setcounter{secnumdepth}{0}  
+ \begin{document}
+% The file aaai.sty is the style file for AAAI Press 
+% proceedings, working notes, and technical reports.
+%
+\title{Data Enrichment using Data Sources on the Web}
+\author{Karthik Gomadam, Peter Z. Yeh, Kunal Verma\\
+Accenture Technology Labs\\
+50, W. San Fernando St,\\
+San Jose, CA\\
+$\lbrace$ karthik.gomadam, peter.z.yeh, k.verma$\rbrace$ @accenture.com
+}
+\maketitle
+\input{abstract_intro.tex}
+\newcommand\codeHighlight[1]{\textcolor[rgb]{1,0,0}{\textbf{#1}}}
+\begin{Verbatim}[commandchars=\\\{\}]
+var http = new XMLHttpRequest();
+var url = (URL not displayed)
+var params = "name={!Contact.Name}&
+	city={!Contact.MailingCity}&
+	state={!Contact.MailingState}";
+http.open("POST", url, true);
+var update_Contact = new sforce.SObject("Contact");
+update_Contact.Id = "{!Contact.Id}" ; 
+var edatap= JSON.parse(http.responseText).data;
+\end{Verbatim}
+\input{motivation}
+\input{approach_overview_arch}
+\input{c_and_e}
+\input{conc_rel_work}
+%\input{algo.tex}
+\bibliographystyle{abbrv}
+\bibliography{www2012dt}
+\end{document}

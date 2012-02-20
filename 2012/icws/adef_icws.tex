@@ -1,0 +1,75 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{graphicx}
+\graphicspath{{./images/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+
+\usepackage[cmex10]{amsmath}
+
+\usepackage{algorithmicx}
+
+\usepackage{array}
+\usepackage{mdwmath}
+\usepackage{mdwtab}
+
+\usepackage{eqparbox}
+%\usepackage[tight,footnotesize]{subfig}
+%\usepackage[caption=false]{caption}
+%\usepackage[font=footnotesize]{subfig}
+%\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage{fixltx2e}
+%\usepackage{stfloats}
+\usepackage{url}
+\usepackage{amsopn}
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{Data Enrichment using Data Sources on the Web}
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{\IEEEauthorblockN{Karthik Gomadam}
+\IEEEauthorblockA{Accenture Technology Labs\\
+San Jose, California, 95123\\
+karthik.gomadam@accenture.com}
+\and
+\IEEEauthorblockN{Kunal Verma}
+\IEEEauthorblockA{Accenture Technology Labs\\
+San Jose, California, 95123\\
+kunal.verma@accenture.com}
+\and
+\IEEEauthorblockN{Peter Z. Yeh}
+\IEEEauthorblockA{Accenture Technology Labs\\
+San Jose, California, 95123\\
+peter.z.yeh@accenture.com}}
+
+% make the title area
+\maketitle
+
+
+\IEEEpeerreviewmaketitle
+
+\input{abstract_intro.tex}
+\input{motivation}
+\input{approach_overview_arch.tex}
+\input{arch.tex}
+\input{c_and_e}
+\input{conc_rel_work}
+
+ 
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,adef_icws}
+
+
+
+\end{document}
+
+

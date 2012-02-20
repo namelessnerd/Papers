@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: adef_icws.aux
+The style file: IEEEtran.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: IEEEabrv.bib
+Database file #2: adef_icws.bib
+A bad cross reference---entry "mapping1"
+refers to entry "DBLP:conf/ijcai/2003iiweb", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/ijcai/2003iiweb"
+-- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 8 entries,
+            4024 wiz_defined-function locations,
+            1226 strings with 15541 characters,
+and the built_in function-call counts, 5439 in all, are:
+= -- 438
+> -- 114
+< -- 42
++ -- 61
+- -- 20
+* -- 259
+:= -- 858
+add.period$ -- 17
+call.type$ -- 8
+change.case$ -- 8
+chr.to.int$ -- 90
+cite$ -- 8
+duplicate$ -- 400
+empty$ -- 448
+format.name$ -- 24
+if$ -- 1231
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 72
+newline$ -- 47
+num.names$ -- 8
+pop$ -- 163
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 423
+stack$ -- 0
+substring$ -- 219
+swap$ -- 311
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 8
+warning$ -- 0
+while$ -- 28
+width$ -- 9
+write$ -- 97
+(There was 1 error message)

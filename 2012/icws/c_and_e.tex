@@ -1,0 +1,9 @@
+\section{Challenges and Experiences}
+Data sources (exposed as RESTful services and/or Web APIs) are an integral part of the data enrichment framework. Even though data sources have been available for many years, their traction within the enterprise has been minimal. During the 
+development of the enrichment framework, we got a few insights into the reasons for this lack of adoption. Rate limiting (especially in the number of calls that can be made within a short interval of time) and lack of syndication
+processes, make it hard to reliably use a data source, especially in client deployments. 
+Further, many of the data sources do not offer explicit SLA driven contracts, thus making them unattractive. Poor API documentation is another reason. 
+Often times, when a developer is using an API, they find that some of the capabilities that are present in the UI driven version of the service (such as LinkedIn API vs LinkedIn.com) are either absent or are not sufficiently 
+documented. This makes it harder to understand the actual capabilities of an API. Further, the data formats for the input and output are often described in text (as opposed to having a JSON / XML snippet), adding to the complexity. 
+API providers do not ``push'' API changes to the developer. In most cases, developers find out about the change after a failed call to the API. We feel that the above mentioned reasons play a significant role in impeding the adoption
+of data sources APIs in enterprise software development.  
